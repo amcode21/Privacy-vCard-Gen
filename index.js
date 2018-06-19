@@ -183,6 +183,9 @@ let createCard = (callback) => {
 			}
 			catch (e) {
 				status.log('error', `[${resp.statusCode}] Unhandled Error -> ${body.message}`);
+				status.log('success', `Saved the ${Object.keys(profiles).length} profile(s) already made!`);
+
+				fs.writeFileSync(upath.normalize(`${__dirname}/profiles/${new Date().toISOString()}_${this.config.bot.toUpperCase()}_profiles.json`), JSON.stringify(profiles));
 			}
 		}
 		else {
@@ -199,6 +202,7 @@ let Main = () => {
 		login.bind(this)(() => {
 			createCard.bind(this)(() => {
 				fs.writeFileSync(upath.normalize(`${__dirname}/profiles/${new Date().toISOString()}_${this.config.bot.toUpperCase()}_profiles.json`), JSON.stringify(profiles));
+				status.log('success', `Saved ${Object.keys(profiles).length} profile(s)!`);
 			});
 		});
 	});
