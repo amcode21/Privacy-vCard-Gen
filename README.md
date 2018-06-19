@@ -2,12 +2,12 @@
 Easy way to create virtual credit cards on the VISA Privacy platform
 No CAPTCHA solving required
 
-## Quick Note
+### Quick Note
 - I take NO responsibility for ANYTHING that happens to your Privacy account
 - Privacy allows the creation of a total of **12 cards in a 24-hour period**
 - Privacy allows the creation of a total of **36 cards in a 30-day period**
 
-## If profiles do NOT save to a file... (Common WINDOWS Error)
+### If profiles do NOT save to a file... (Common WINDOWS Error)
 - Copy from console and paste into a new file
 - Save to a file `.json` at the end
 - Import that file into the bot
