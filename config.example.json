@@ -1,0 +1,23 @@
+{
+	"user": "xxx@xxx.com",
+	"password": "abc123",
+
+	"firstName": "Meme",
+	"lastName": "Machine",
+	"email": "me@meme.machine",
+	"phoneNumber": "123456789",
+	"address1": "1234 Meme Street",
+	"address2": "",
+	"city": "Meme City",
+	"zipCode": "12345",
+	"state": "MM",
+
+	"cardName": "card title w/ number at end",
+	"limit": 100,
+	"limit_description": "limit applied to each card",
+
+	"amount": 2,
+	"amount_description": "amount of profiles to generate",
+
+	"bot": "dashe"
+}
