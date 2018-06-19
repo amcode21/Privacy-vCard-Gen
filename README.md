@@ -12,6 +12,10 @@ No CAPTCHA solving required
 - Save to a file `.json` at the end
 - Import that file into the bot
 
+Those are just some quick notes that should be useful to remember!
+
+##Instructions to use program below...
+
 ### To add to your computer...
 - CD to Desktop in terminal, and type `git clone https://github.com/coder486/Privacy-vCard-Gen.git`
 - CD to `Privacy-vCard-Gen` in Desktop
