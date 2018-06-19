@@ -7,11 +7,15 @@ No CAPTCHA solving required
 - Privacy allows the creation of a total of **12 cards in a 24-hour period**
 - Privacy allows the creation of a total of **36 cards in a 30-day period**
 
+## If profiles do NOT save to a file... (Common WINDOWS Error)
+- Copy from console and paste into a new file
+- Save to a file `.json` at the end
+- Import that file into the bot
+
 ### To add to your computer...
 - CD to Desktop in terminal, and type `git clone https://github.com/coder486/Privacy-vCard-Gen.git`
 - CD to `Privacy-vCard-Gen` in Desktop
 - Type `npm install` and hit enter!
-
 
 ### To use the program...
 - Edit `config.example.json` with your details
@@ -30,7 +34,3 @@ No CAPTCHA solving required
 	- Something like a date
 	- Name of `bot` in `config.json` in uppercase
 - Just import the profiles file straight into the bot if it's supported!
-- **IF PROFILES ARE NOT SAVED:**
-	- **COPY/PASTE FROM CONSOLE**
-	- **SAVE TO A FILE WITH `.json` AT THE END**
-	- **IMPORT THAT FILE INTO THE BOT**
