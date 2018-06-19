@@ -6,6 +6,7 @@ No CAPTCHA solving required
 - I take NO responsibility for ANYTHING that happens to your Privacy account
 - Privacy allows the creation of a total of **12 cards in a 24-hour period**
 - Privacy allows the creation of a total of **36 cards in a 30-day period**
+
 ### To add to your computer...
 - CD to Desktop in terminal, and type `git clone https://github.com/coder486/Privacy-vCard-Gen.git`
 - CD to `Privacy-vCard-Gen` in Desktop
