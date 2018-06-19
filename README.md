@@ -2,13 +2,13 @@
 Easy way to create virtual credit cards on the VISA Privacy platform
 No CAPTCHA solving required
 
-To add to your computer:
+### To add to your computer...
 - CD to Desktop in terminal, and type `git clone https://github.com/coder486/Privacy-vCard-Gen.git`
 - CD to `Privacy-vCard-Gen` in Desktop
 - Type `npm install` and hit enter!
 
 
-Here is how to use the program:
+### To use the program...
 - Edit `config.example.json` with your details
 - Rename to `config.json`
 - CD to directory in terminal
@@ -18,3 +18,10 @@ Here is how to use the program:
 	- ^^ example, below are actual terms
 	- Shopify Dashe --> dashe
 	- Ghost SNKRS --> ghost
+
+### Once you're done running the program...
+- Check the new directory `profiles`
+- All profiles should be saved with:
+	- Something like a date
+	- Name of `bot` in `config.json` in uppercase
+- Just import the profiles file straight into the bot if it's supported!
