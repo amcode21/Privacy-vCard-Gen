@@ -30,3 +30,7 @@ No CAPTCHA solving required
 	- Something like a date
 	- Name of `bot` in `config.json` in uppercase
 - Just import the profiles file straight into the bot if it's supported!
+- **IF PROFILES ARE NOT SAVED:**
+	- **COPY/PASTE FROM CONSOLE**
+	- **SAVE TO A FILE WITH `.json` AT THE END**
+	- **IMPORT THAT FILE INTO THE BOT**
