@@ -168,7 +168,7 @@ let createCard = (callback) => {
 		if (!err && (resp.statusCode === 200 || 201 || 202)) {
 			try {
 				this.card = body.card;
-				this.card.profileName = `${this.config.bot.toUpperCase()} ${Object.keys(profiles).length}`;
+				this.card.profileName = `${this.config.cardName.toUpperCase()} ${Object.keys(profiles).length}`;
 
 				profiles[this.card.profileName] = createProfile(this.config, this.card);
 
